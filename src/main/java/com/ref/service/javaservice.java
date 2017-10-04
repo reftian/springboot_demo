@@ -42,6 +42,7 @@ public class javaservice {
         GregorianCalendar   now= new GregorianCalendar();
         int month = now.get(Calendar.MONTH);
         log.info("当前的月为:{}",month);
+        log.info("parsit:{}",Integer.parseInt("123"));
     }
 
 
